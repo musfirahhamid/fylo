@@ -1,0 +1,33 @@
+footer{
+    background-color:hsl(216, 53%, 9%);
+    margin-top:30px;
+    box-sizing: border-box;
+    height:500px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    z-index:1;
+}
+.contact-box{
+    position:absolute;;
+    width:800px;
+    height:250px;
+    background-color:hsl(217, 28%, 15%);
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:2;
+    box-shadow:5px 5px 5px hsl(222, 31%, 11%);
+    margin-top:50px;
+}
+.section5{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding-top:150px;
+}
